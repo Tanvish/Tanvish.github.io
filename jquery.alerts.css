@@ -13,7 +13,7 @@
 
 #popup_title {
 
-	font-size: 14px;
+	font-size:400%;
 	font-weight: bold;
 	text-align: center;
 	line-height: 2.75em;
@@ -29,7 +29,7 @@
 #popup_content {
 	text-align: 'center';
 	font-family: 'Nunito',georgia;
-
+  font-size: 200%;
 	padding: 1em 1.75em;
 	margin: 0em;
 }
