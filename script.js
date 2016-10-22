@@ -790,7 +790,7 @@ $(document).ready( function() {
     jPrompt('The nodules of Medicago italica contain the nitrogen fixing bacterium X. The plant provides the bacteria with nutrients and an anaerobic environment, and the bacteria fix nitrogen for the plant. Name X.',
     '', 'GAMA', function(r) {
 
-      if (r="sinorhizobium meliloti"){var x = document.getElementById('ran55');
+      if (r=="sinorhizobium meliloti"){var x = document.getElementById('ran55');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran55');
@@ -905,6 +905,7 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran63").click( function() {
+
     jPrompt('Process that involves mixing of foreign DNA with charged substances like Calcium phosphate, cationic liposomes or DEAE dextran and overlaying on recipient host cells so that they take up the DNA is called?', '', 'BETA', function(r) {
 
       if (r=="transfection"){var x = document.getElementById('ran63');
