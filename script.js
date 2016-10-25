@@ -1,7 +1,7 @@
 $(document).ready( function(){
   $("#ran1").click( function() {
     jPrompt(' For glycoproteins most commonly used probe is?'
-    , '', 'GAMA', function(r) {
+    , '', 'GAMMA', function(r) {
 
       if (r=="lectin"){var x = document.getElementById('ran1');
          x.style.background = '#2ecc71';
@@ -33,7 +33,7 @@ $(document).ready( function(){
     jPrompt('Who hailed Darwin’s book ‘The Origin of Species’ as ‘a veritable Whitworth gun in the armoury of liberalism.’',
      '', 'BETA', function(r) {
 
-      if (r=="cool"){var x = document.getElementById('ran3');
+      if (r=="huxley"){var x = document.getElementById('ran3');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran3');
@@ -75,7 +75,7 @@ $(document).ready( function() {
 });
      $(document).ready( function() {
   $("#ran6").click( function() {
-    jPrompt(' Hirudin is a protein that prevents blood clotting. Its gene was chemically synthesized and was transfer#c0392b into X where hirudin accumulates in Y. It is extracted and purified and used as medicine. Identify X.'
+    jPrompt(' Hirudin is a protein that prevents blood clotting. Its gene was chemically synthesized and was transferred into X where hirudin accumulates in Y. It is extracted and purified and used as medicine. Identify X.'
     , '', 'BETA', function(r) {
 
       if (r=="brassica napus and seeds"){var x = document.getElementById('ran6');
@@ -122,7 +122,7 @@ $(document).ready( function() {
   $("#ran9").click( function() {
     jPrompt(' What is the process of removal of gonads called?', '', 'BETA', function(r) {
 
-      if (r=="Orchiectomy(Males)"&&r=="Oophorectomy (Females)"){var x = document.getElementById('ran9');
+      if (r=="orchiectomy (Males) and oophorectomy (Females)"){var x = document.getElementById('ran9');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran9');
@@ -135,7 +135,7 @@ $(document).ready( function() {
  $(document).ready( function() {
   $("#ran10").click( function() {
     jPrompt('Benjamin Franklin and Thomas Malthus talked about X in their respective books. This term is also the name of the third chapter in ‘The Origin of Species’. Identify X.',
-     '', 'GAMA', function(r) {
+     '', 'GAMMA', function(r) {
 
       if (r=="clothing"){var x = document.getElementById('ran10');
          x.style.background = '#2ecc71';
@@ -163,9 +163,9 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran12").click( function() {
-    jPrompt('X was one of the 20th century\'s leading evolutionary biologists. He was also a renowned taxonomist, tropical explorer, ornithologist, philosopher of biology, and historian of science. His work contributed to the conceptual revolution that led to the modern evolutionary synthesis of Mendelian genetics, systematics, andDarwinian evolution, and to the development of the biological species concept.', '', 'GAMA', function(r) {
+    jPrompt('X was one of the 20th century\'s leading evolutionary biologists. He was also a renowned taxonomist, tropical explorer, ornithologist, philosopher of biology, and historian of science. His work contributed to the conceptual revolution that led to the modern evolutionary synthesis of Mendelian genetics, systematics, andDarwinian evolution, and to the development of the biological species concept.', '', 'GAMMA', function(r) {
 
-      if (r==" ernst mayr"){var x = document.getElementById('ran12');
+      if (r=="ernst mayr"){var x = document.getElementById('ran12');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran12');
@@ -191,7 +191,7 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran14").click( function() {
-    jPrompt('When is World Ozone Day celebrated?', '', 'GAMA', function(r) {
+    jPrompt('When is World Ozone Day celebrated?', '', 'GAMMA', function(r) {
 
       if (r=="16 september"){var x = document.getElementById('ran14');
          x.style.background = '#2ecc71';
@@ -219,9 +219,9 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran16").click( function() {
-    jPrompt('Taste Blindness is the inability to taste certain substances. It is due to an autosomal recessive trait. Substance X has the unusual property that it either tastes very bitter or is virtually tasteless, depending on the genetic makeup of the taster. Identify X.', '', 'GAMA', function(r) {
+    jPrompt('Taste Blindness is the inability to taste certain substances. It is due to an autosomal recessive trait. Substance X has the unusual property that it either tastes very bitter or is virtually tasteless, depending on the genetic makeup of the taster. Identify X.', '', 'GAMMA', function(r) {
 
-      if (r=="phenylthiocarbamide(PTC)"){var x = document.getElementById('ran16');
+      if (r=="phenylthiocarbamide"||r=="PTC"){var x = document.getElementById('ran16');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran16');
@@ -248,9 +248,9 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran18").click( function() {
-    jPrompt(' What is the other name for Vitamin K?', '', 'ALPHA', function(r) {
+    jPrompt(' What is the other name for Vitamin K1?', '', 'ALPHA', function(r) {
 
-      if (r=="phylloquinone(K1)"||r=="menaquinones(K2)"){var x = document.getElementById('ran18');
+      if (r=="phylloquinone"){var x = document.getElementById('ran18');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran18');
@@ -262,9 +262,9 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran19").click( function() {
-    jPrompt('Break bone fever is caused by which organism?', '', 'GAMA', function(r) {
+    jPrompt('Break bone fever is caused by which organism?', '', 'GAMMA', function(r) {
 
-      if (r=="aedes aegypt"){var x = document.getElementById('ran19');
+      if (r=="aedes aegypti"){var x = document.getElementById('ran19');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran19');
@@ -291,8 +291,8 @@ $(document).ready( function() {
  });
  $(document).ready( function() {
   $("#ran21").click( function() {
-    jPrompt('X was a protein domain which played a major role in limiting our brain size. According to researchers, it’s abundance relates to our brain size. While we have 270 of them, mice only have 1. Name the protein domain.',
-    '', 'GAMA', function(r) {
+    jPrompt('X was a protein domain which played a major role in limiting our brain size. According to researchers, it\’s abundance relates to our brain size. While we have 270 of them, mice only have 1. Name the protein domain.',
+    '', 'GAMMA', function(r) {
 
       if (r=="DUF1220"){var x = document.getElementById('ran21');
          x.style.background = '#2ecc71';
@@ -340,7 +340,7 @@ $(document).ready( function() {
 
      '', 'BETA', function(r) {
 
-      if (r=="rensch’s rule"){var x = document.getElementById('ran24');
+      if (r=="renschs rule"){var x = document.getElementById('ran24');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran24');
@@ -353,9 +353,9 @@ $(document).ready( function() {
  $(document).ready( function() {
   $("#ran25").click( function() {
     jPrompt('A hormone X stimulates release of bile from the gall bladder and causes the pancreas to release digestive enzymes. It is synthesized by I-cells in the mucosal epithelium of the small intestine and secreted in the duodenum. Identify X.:'
-    , '', 'GAMA', function(r) {
+    , '', 'GAMMA', function(r) {
 
-      if (r=="cholecystokinin(CCK)"||r=="Pancreozymin"){var x = document.getElementById('ran25');
+      if (r=="cholecystokinin"||r=="CCK"||r=="pancreozymin"){var x = document.getElementById('ran25');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran25');
@@ -382,7 +382,7 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran27").click( function() {
-    jPrompt('Koplik’s spots are characteristic feature of which disease?', '  ', 'BETA', function(r) {
+    jPrompt('Koplik\’s spots are characteristic feature of which disease?', '', 'BETA', function(r) {
 
       if (r=="measles"){var x = document.getElementById('ran27');
          x.style.background = '#2ecc71';
@@ -442,7 +442,7 @@ $(document).ready( function() {
   $("#ran31").click( function() {
     jPrompt('Name any one organelle involved in Photorespiration.', '', 'BETA', function(r) {
 
-      if (r=="mitochondria"||r=="peroxisomes"||r=="microbodies"||r== "chloroplast"){var x = document.getElementById('ran31');
+      if (r=="mitochondria peroxisomes"||r=="microbodies chloroplast"){var x = document.getElementById('ran31');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran31');
@@ -483,9 +483,9 @@ $(document).ready( function() {
  $(document).ready( function() {
   $("#ran34").click( function() {
     jPrompt('Transgenic Tobacco plants contain a gene X which provides them with enhanced levels of insect resistance. X has anti-metabolic activity to insect pests of the orders Lepidoptera, Coleoptera and Orthoptera. Identify X.'
-     , '', 'GAMA', function(r) {
+     , '', 'GAMMA', function(r) {
 
-      if (r=="cowpea trypsin inhibitor(CpTI)"){var x = document.getElementById('ran34');
+      if (r=="cowpea trypsin inhibitor"||r=="CPTI"){var x = document.getElementById('ran34');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran34');
@@ -527,7 +527,7 @@ $(document).ready( function() {
  $(document).ready( function() {
   $("#ran37").click( function() {
     jPrompt('X (22 September 1800 – 10 September 1884) was an English botanist, characterised by Duane Isely as "the premier systematic botanist of the nineteenth century". Most of us might have read about his claim to fame, or atleast heard it. Identify X.',
-     '', 'GAMA', function(r) {
+     '', 'GAMMA', function(r) {
 
       if (r=="george bentham"){var x = document.getElementById('ran37');
          x.style.background = '#2ecc71';
@@ -570,9 +570,9 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran40").click( function() {
-    jPrompt(' What makes hot chilli peppers spicy?', '', 'GAMA', function(r) {
+    jPrompt(' What makes hot chilli peppers spicy?', '', 'GAMMA', function(r) {
 
-      if (r=="Capsaicin"){var x = document.getElementById('ran40');
+      if (r=="capsaicin"){var x = document.getElementById('ran40');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran40');
@@ -601,7 +601,7 @@ $(document).ready( function() {
   $("#ran42").click( function() {
     jPrompt('Stain used to discover Mitochondria is?', '', 'BETA', function(r) {
 
-      if (r=="janus #2ecc71"){var x = document.getElementById('ran42');
+      if (r=="janus green"){var x = document.getElementById('ran42');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran42');
@@ -614,7 +614,7 @@ $(document).ready( function() {
  $(document).ready( function() {
   $("#ran43").click( function() {
     jPrompt('West Nile virus is commonly transmitted to humans, horses and other animals via?'
-, '', 'GAMA', function(r) {
+, '', 'GAMMA', function(r) {
 
       if (r=="mosquitoes"){var x = document.getElementById('ran43');
          x.style.background = '#2ecc71';
@@ -656,7 +656,7 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran46").click( function() {
-    jPrompt('X was a Greek native of Eresos in Lesbos, was the successor to Aristotle in the Peripatetic school. He came to Athens at a young age and initially studied in Plato\'s school. After Plato\'s death, he attached himself to  Aristotle. Aristotle took to Theophrastus his writings and designated him as his successor at the Lyceum. Name X.', '', 'GAMA', function(r) {
+    jPrompt('X was a Greek native of Eresos in Lesbos, was the successor to Aristotle in the Peripatetic school. He came to Athens at a young age and initially studied in Plato\'s school. After Plato\'s death, he attached himself to  Aristotle. Aristotle took to <b>X</b> his writings and designated him as his successor at the Lyceum. Name X.', '', 'GAMMA', function(r) {
 
       if (r=="theophrastus"){var x = document.getElementById('ran46');
          x.style.background = '#2ecc71';
@@ -744,7 +744,7 @@ $(document).ready( function() {
  $(document).ready( function() {
   $("#ran52").click( function() {
     jPrompt('As DNA is unique to an individual, we can use DNA fingerprinting to match genetic information with the person it came from. RFLP cuts out genes which are likely to be differentiating factors using restriction enzymes. Expand RFLP.'
-     , '', 'GAMA', function(r) {
+     , '', 'GAMMA', function(r) {
 
       if (r=="restriction fragment length polymorphism"){var x = document.getElementById('ran52');
          x.style.background = '#2ecc71';
@@ -760,7 +760,7 @@ $(document).ready( function() {
   $("#ran53").click( function() {
     jPrompt('Taylor conducted the experiments to prove semiconservative mode of chromosome replication on?', '', 'BETA', function(r) {
 
-      if (r=="Vicia faba"){var x = document.getElementById('ran53');
+      if (r=="vicia faba"){var x = document.getElementById('ran53');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran53');
@@ -788,7 +788,7 @@ $(document).ready( function() {
  $(document).ready( function() {
   $("#ran55").click( function() {
     jPrompt('The nodules of Medicago italica contain the nitrogen fixing bacterium X. The plant provides the bacteria with nutrients and an anaerobic environment, and the bacteria fix nitrogen for the plant. Name X.',
-    '', 'GAMA', function(r) {
+    '', 'GAMMA', function(r) {
 
       if (r=="sinorhizobium meliloti"){var x = document.getElementById('ran55');
          x.style.background = '#2ecc71';
@@ -831,7 +831,7 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran58").click( function() {
-    jPrompt(' Who gave 3D model of tRNA?', '', 'GAMA', function(r) {
+    jPrompt(' Who gave 3D model of tRNA?', '', 'GAMMA', function(r) {
 
       if (r=="s.h. kim"){var x = document.getElementById('ran58');
          x.style.background = '#2ecc71';
@@ -864,7 +864,7 @@ $(document).ready( function() {
     jPrompt('X is metabolic pathway that results in the generation of glucose from non-carbohydrate carbon substrates such as lactate, glycerol, and glucogenic amino acids. It takes place in Liver and to some extent in the cortex of Kidney. Identify X.',
      '', 'BETA', function(r) {
 
-      if (r=="gluconeogenesis(gng)"){var x = document.getElementById('ran60');
+      if (r=="gluconeogenesis"||r=="GNG"){var x = document.getElementById('ran60');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran60');
@@ -964,9 +964,9 @@ $(document).ready( function() {
  $(document).ready( function() {
   $("#ran67").click( function() {
     jPrompt('Which is the major nerve supply to the gastrointestinal tract that controls GI tract motility?'
-    , '', 'GAMA', function(r) {
+    , '', 'GAMMA', function(r) {
 
-      if (r=="auerbach’s(myenteric)plexus"){var x = document.getElementById('ran67');
+      if (r=="auerbachs (myenteric) plexus"){var x = document.getElementById('ran67');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran67');
@@ -994,7 +994,7 @@ $(document).ready( function() {
  $(document).ready( function() {
   $("#ran69").click( function() {
     jPrompt('Y-shaped Model (Double Channel Model) of energy flow is given by?',
-    '', 'GAMA', function(r) {
+    '', 'GAMMA', function(r) {
 
       if (r=="h.t. odum"){var x = document.getElementById('ran69');
          x.style.background = '#2ecc71';
@@ -1038,9 +1038,9 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran72").click( function() {
-    jPrompt('Where is Keolado National Park located?', '', 'GAMA', function(r) {
+    jPrompt('Where is Keolado National Park located?', '', 'GAMMA', function(r) {
 
-      if (r=="bharatpur(rajasthan)"){var x = document.getElementById('ran72');
+      if (r=="bharatpur"){var x = document.getElementById('ran72');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran72');
@@ -1067,10 +1067,10 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran74").click( function() {
-    jPrompt('X was a physician, physiologist, philosopher, and professor, known today as one of the founding figures of modern psychology. X, who noted psychology as a science apart from biologyand philosophy, was the first person to ever call himself a psychologist.'
+    jPrompt('X is a German physiologist who received the 1901 Nobel Prize in Physiology or Medicine, the first one awarded, for his discovery of a diphtheria antitoxin. He was widely known as a "saviour of children", as diphtheria used to be a major cause of child death. Identify X. '
 , '', 'BETA', function(r) {
 
-      if (r=="wilhelm wundt"){var x = document.getElementById('ran74');
+      if (r=="emil von behring"){var x = document.getElementById('ran74');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran74');
@@ -1097,9 +1097,9 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran76").click( function() {
-    jPrompt('What is a Bartholin Abscess?', '', 'BETA', function(r) {
+    jPrompt('<b>X</b> is the buildup of pus that forms a lump (swelling) in one of the Bartholin glands.Identify <b>X</b>. ', '', 'BETA', function(r) {
 
-      if (r=="bartholin abscess is the buildup of pus that forms a lump (swelling) in one of the Bartholin glands. "){var x = document.getElementById('ran76');
+      if (r=="bartholin abscess"){var x = document.getElementById('ran76');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran76');
@@ -1111,7 +1111,7 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran77").click( function() {
-    jPrompt('X is the general name of the fungi of genus Claviceps. X does not contain lysergic acid diethylamide (LSD) but instead contains lysergic acid . Lysergic acid is a precursor for the synthesis of LSD. LSD was first prepa#c0392b by Albert Hoffmann in 1938 from these fungi. Give X.:',
+    jPrompt('X is the general name of the fungi of genus Claviceps. X does not contain lysergic acid diethylamide (LSD) but instead contains lysergic acid . Lysergic acid is a precursor for the synthesis of LSD. LSD was first prepared by Albert Hoffmann in 1938 from these fungi. Give X.:',
      '', 'BETA', function(r) {
 
       if (r=="ergot"){var x = document.getElementById('ran77');
@@ -1143,7 +1143,7 @@ $(document).ready( function() {
     jPrompt('Some insects, birds and mammals in warm & humid climates bear darker pigment than races of same species present in cool & dry climates. Identify the rule which governs this phenomena.',
      '', 'BETA', function(r) {
 
-      if (r=="glover’s rule"){var x = document.getElementById('ran79');
+      if (r=="glovers rule"){var x = document.getElementById('ran79');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran79');
@@ -1156,9 +1156,9 @@ $(document).ready( function() {
  $(document).ready( function() {
   $("#ran80").click( function() {
     jPrompt('Beadle and Tatum carried out experiments on organism X after which they formulated the One gene - one enzyme hypothesis and received a Noble Prize for the same. Identify X.'
-, '', 'GAMA', function(r) {
+, '', 'GAMMA', function(r) {
 
-      if (r=="neurospora crassa(pink bread mould)"){var x = document.getElementById('ran80');
+      if (r=="neurospora crassa"||r=="pink bread mould"){var x = document.getElementById('ran80');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran80');
@@ -1170,7 +1170,7 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran81").click( function() {
-    jPrompt('Which drug is obtained from Catharanthus roseus?', '', 'GAMA', function(r) {
+    jPrompt('Which drug is obtained from Catharanthus roseus?', '', 'GAMMA', function(r) {
 
       if (r=="vinblastine"){var x = document.getElementById('ran81');
          x.style.background = '#2ecc71';
@@ -1214,9 +1214,9 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran84").click( function() {
-    jPrompt('Connect : 24 November 1859, Beagle Expedition, ', '', 'ALPHA', function(r) {
+    jPrompt('Connect : 24 November 1859, Beagle Expedition, Fertilisation of Orchids', '', 'ALPHA', function(r) {
 
-      if (r=="fertilisation of orchids"){var x = document.getElementById('ran84');
+      if (r=="the origin of species"){var x = document.getElementById('ran84');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran84');
@@ -1242,7 +1242,7 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran86").click( function() {
-    jPrompt('Which is the outermost layer of cell envelope in prokaryotes?', '', 'GAMA', function(r) {
+    jPrompt('Which is the outermost layer of cell envelope in prokaryotes?', '', 'GAMMA', function(r) {
 
       if (r=="glycocalyx"){var x = document.getElementById('ran86');
          x.style.background = '#2ecc71';
@@ -1256,7 +1256,7 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran87").click( function() {
-    jPrompt('What is the procedure for identifying specific sequences of DNA, in which fragments separated on a gel are transfer#c0392b directly to a second medium on which assay by hybridization may be carried out called?'
+    jPrompt('What is the procedure for identifying specific sequences of DNA, in which fragments separated on a gel are transferred directly to a second medium on which assay by hybridization may be carried out called?'
     , '', 'BETA', function(r) {
 
       if (r=="southern blot"){var x = document.getElementById('ran87');
@@ -1272,7 +1272,7 @@ $(document).ready( function() {
  $(document).ready( function() {
   $("#ran88").click( function() {
     jPrompt('X (4 February 1778 – 9 September 1841) was a Swiss botanist. X  had established a new genus, and he went on to document hund#c0392bs of plant families and create a new natural plant classification system. Although X\'s main focus was botany, he also contributed to related fields such as phytogeography, agronomy, paleontology, medical botany, and economic botany. Identify X.',
-     '', 'GAMA', function(r) {
+     '', 'GAMMA', function(r) {
 
       if (r=="augustin pyramus de candolle"){var x = document.getElementById('ran88');
          x.style.background = '#2ecc71';
@@ -1304,7 +1304,7 @@ $(document).ready( function() {
     jPrompt('Giardiasis is a disease caused by which kind of organisms? '
     , '', ' BETA', function(r) {
 
-      if (r=="giardia lamblia(protozoa)"){var x = document.getElementById('ran90');
+      if (r=="giardia lamblia"||r=="protozoa"){var x = document.getElementById('ran90');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran90');
@@ -1346,7 +1346,7 @@ $(document).ready( function() {
  $(document).ready( function() {
   $("#ran93").click( function() {
     jPrompt('X is a class of aromatic amines which includes a number of neurotransmitters such as adrenaline and dopamine, epinephrine, norepinephrine, etc. They are derived from Tyrosine. Identify X.',
-     '', 'GAMA', function(r) {
+     '', 'GAMMA', function(r) {
 
       if (r=="catecholamine"){var x = document.getElementById('ran93');
          x.style.background = '#2ecc71';
@@ -1362,7 +1362,7 @@ $(document).ready( function() {
   $("#ran94").click( function() {
     jPrompt('9:6:1 phenotypic ratio in F2 generation is found in which intergenic interaction?', '', 'BETA', function(r) {
 
-      if (r=="polymeric"||r=="additive genes"){var x = document.getElementById('ran94');
+      if (r=="polymeric genes"||r=="additive genes"){var x = document.getElementById('ran94');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran94');
@@ -1391,7 +1391,7 @@ $(document).ready( function() {
   $("#ran96").click( function() {
     jPrompt('What forces act as stabilising forces for nucleic acids?', '', 'ALPHA', function(r) {
 
-      if (r=="van der waals"&&r=="hydrogen bonding"){var x = document.getElementById('ran96');
+      if (r=="van der waals and hydrogen bonding"){var x = document.getElementById('ran96');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran96');
@@ -1418,9 +1418,9 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran98").click( function() {
-    jPrompt('Type something:', '', 'Prompt Dialog', function(r) {
+    jPrompt('An organism containing both male and female characteristics is called?', '', 'BETA', function(r) {
 
-      if (r=="cool"){var x = document.getElementById('ran98');
+      if (r=="gynandromorphs"){var x = document.getElementById('ran98');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran98');
@@ -1446,11 +1446,11 @@ $(document).ready( function() {
      });
  $(document).ready( function() {
   $("#ran100").click( function() {
-    jPrompt('X is a powerful vasodilator, and a hormone secreted by heart muscle cells. It acts to #c0392buce the water, sodium and adipose loads on the circulatory system, thereby #c0392bucing blood pressure. It has exactly the opposite function of the aldosterone. Identify X.'
-    , '', 'GAMA', function(r) {
+    jPrompt('X is a powerful vasodilator, and a hormone secreted by heart muscle cells. It acts to reduce the water, sodium and adipose loads on the circulatory system, thereby reducing blood pressure. It has exactly the opposite function of the aldosterone. Identify X.'
+    , '', 'GAMMA', function(r) {
 
-      if (r=="atrial natriuretic peptide(ANP)"||r=="atrial natriuretic factor(ANF)"||r=="atrial natriuretic hormone(ANH)"||r=="cardionatrine"||r=="cardiodilatin(CDD)"||r=="atriopeptin"
-){var x = document.getElementById('ran100');
+      if (r=="atrial natriuretic peptide"||r=="ANP"||r=="atrial natriuretic factor"||r=="ANF"||r=="atrial natriuretic hormone"||r=="ANH"||r=="cardionatrine"||r=="cardiodilatin"||r=="CDD"||r=="atriopeptin")
+        {var x = document.getElementById('ran100');
          x.style.background = '#2ecc71';
          x.style.color="white";}
       else{var x = document.getElementById('ran100');
